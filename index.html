@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        .header {
+            height: 250px !important;
+        }
+
+        .header a {
+            text-decoration: none;
+            color: white;
+        }
+
+
+        .payment-heading {
+            color: white;
+        }
+
+        .mainbody {
+            height: auto;
+
+            background-color: whitesmoke !important;
+        }
+
+        .good-news {
+            color: black;
+        }
+
+        .pannel {
+            border-radius: 25px 25px 0px 0px;
+            margin-top: -50px;
+            background-color: white;
+        }
+
+        .buttons button {
+            border-radius: 20px;
+            padding: 7px 22px;
+            margin-left: 4px;
+            margin-right: 4px;
+            background-color: transparent;
+            outline: none;
+            border: 2px solid blue;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .cancel {
+            color: blue !important;
+        }
+
+        .submit {
+            background-color: blue !important;
+        }
+
+
+        @media(max-width:630px) {
+
+            .header {
+                height: 160px !important;
+            }
+
+            .payment-heading {
+
+                font-size: 25px;
+                margin-top: -40px;
+            }
+
+
+            .pannel {
+                margin-top: -25px;
+            }
+
+
+            .offer {
+                font-size: 17px;
+                font-weight: 500;
+            }
+
+            .form-check {
+                padding: 0px !important;
+            }
+
+            .mainbody {
+                padding: 0px !important;
+            }
+
+        }
+
+
+        @media(max-width:375px) {
+            .payment-heading {
+
+                font-size: 20px;
+            }
+
+            .good-news {
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            .sec-1 {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+
+            .offer {
+                font-size: 14px;
+            }
+
+            ul li {
+                font-size: 13px;
+                font-weight: 500;
+            }
+
+            .form-check {
+                padding: 16px !important;
+               
+                
+            }
+
+            .label {
+                font-weight: 400 !important;
+                text-align: left !important;
+                font-size: 15px;
+            }
+
+            .check{padding-left: 0px !important;
+            padding-right: 0px !important;}
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container-fluid header w-100 bg-primary">
+        <div class="row">
+            <div class="col-12 ">
+                <span class="font-weight-bold"> <a href="">
+                        < Back </a> </span>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="col-12  text-center">
+                <h1 class="payment-heading">Payment Arrangment</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="container-fluid ">
+        <div class="row mainbody px-2 justify-content-center">
+            <div class="col-12 col-lg-8  pannel pb-5">
+
+                <div class="col-12  col-lg-12  px-5 pt-5 pb-2 sec-1">
+                    <h1 class="text-center good-news"> Good News</h1>
+                    <p class="text-center offer">We offer payment arrangements to provide you a little more time to pay
+                        your past
+                        due amount.</p>
+                    <ul>
+                        <li>This will keep your service active if you pay by the extended date </li>
+                        <li>Late fees applay</li>
+                        <li>Accepting this extension does not create a payment</li>
+                    </ul>
+
+                    <hr>
+
+                    <h4 class="text-center font-weight-bold "> Your Past Due Amount</h4>
+                    <p class="text-center font-weight-normal"> was due 04/01/2021 </p>
+                    <h4 class="text-center text-danger font-weight-bold"> $90.34</h4>
+                </div>
+
+
+                <div
+                    class="col-12 col-lg-10 px-5 bg-light py-4 d-flex flex-column justify-content-center align-items-center mx-auto">
+                    <h4 class="text-center font-weight-bold"> Extension Due Date</h4>
+                    <h4 class="text-center text-primary font-weight-bold"> 04/08/2021 </h4>
+                </div>
+
+
+                <div class="col-12 col-lg-12 px-5  py-3 check">
+
+                    <div class="mb-3 form-check px-5">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label text-center font-weight-bold label" for="exampleCheck1">
+                            I accept the Extension date which applies only to past due ammount. All other amounts
+                            due before then need to be paid to avoid interruption in service.</label>
+
+                    </div>
+
+
+                    <div class="text-center buttons mb-5">
+                        <button type="button" class="btn cancel">Cancel</button>
+                        <button type="button" class="btn submit">Submit</button>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
